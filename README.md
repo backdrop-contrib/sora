@@ -29,3 +29,7 @@ Personal: Es un simple CSS que sirve para que quien así lo desee agrega sus pro
 Node: Contiene la estructura de los Nodos.
 
 Comment: Contiene la estructura de los comentarios.
+
+# Diseño original
+
+Scoppettuolo.
