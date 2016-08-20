@@ -1,0 +1,209 @@
+/* General */
+
+body {
+	font-size: 18px;
+}
+
+.site-name, .site-slogan, .page-title {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+.page-title {
+	font-size: 300%;
+	border-left-style: solid;
+	border-left-width: 0px;
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-top: solid 2px;
+	margin-bottom: 0px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.page-title:hover {
+	font-size: 250%;
+    border-left-style: solid;
+	border-left-width: 0px;
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-top: solid 8px;
+	margin-bottom: 0px;
+	transform: scale(1.00,1.00);
+	border-radius: 2px 100px 2px 2px;
+}
+
+.l-header:before {
+	border-bottom: 4px solid #FFF;
+}
+
+.l-header ul.menu {
+	list-style-position:outside;
+	left: 20%;
+	right: 20%;
+}
+
+.l-header ul.menu {
+    display: block;
+    line-height: 4em;
+    padding: 2px;;
+}
+
+.l-header ul.menu li a {
+	font-size: 150%;
+	color: #000;
+	border-bottom: 10px solid transparent;
+	padding: 20px 20px 10px 20px;
+}
+
+.header-menu ul.links li a {
+    font-size: 100%;
+    padding: 10px;
+    border-radius: 0px;
+}
+
+footer {
+	border-radius: 14px 14px 0px 0px;
+}
+
+
+/* Detalles */
+
+a {
+    font-weight: bold;
+}
+
+.profile .user-picture img,
+.node .user-picture img,
+.comment .user-picture img {
+	border: 10px solid;
+	border-left-style: solid;
+	border-left-width: 5px;
+	border-radius: 100%;
+	padding: 10px;
+}
+
+article .links a, article .links a:visited {
+	padding: 4px;
+	margin: 4px;
+	border-radius: 4px;
+	border-bottom: 2px solid;
+	border-top: 2px solid;
+	background: transparent !important;
+	float: right;
+}
+
+.comment-footer {
+	padding: 4px;
+	margin: 4px;
+	border-radius: 4px;
+	border-bottom: 2px solid;
+	border-top: 2px solid;
+	background: transparent !important;
+}
+
+
+table, thead, tbody, tr, th, td {
+	border-left: transparent !important;
+	border-right: transparent !important;
+	border-top: solid 2px !important;
+	border-bottom: 2px !important;
+}
+
+ul.primary li {
+    border-right: 0px solid;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+
+/**
+ * node
+ */
+
+.node, .comment {
+	margin: 0;
+	padding: 18px;;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.node .submitted {
+	font-size: 0.75em;
+  /*
+  display: none;
+  */
+}
+
+.node .user-picture {
+	float: left;
+	padding: 20px 20px 40px 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 20px 20px 100px 100px;
+}
+
+/* Comentarios */
+
+.comment {
+	border: solid 4px;
+	border-radius: 4px;
+}
+
+.comments h2.title {
+	font-family: Delicious, sans-serif, "omnes-pro";
+	font-size: 300%;
+    font-style: italic;
+    padding: 4px 0px 4px 12px;
+    margin-bottom: 5px;
+    border-left-style: solid;
+    border-left-width: 0px;
+    border-right-style: solid;
+    border-right-width: 0px;
+	border-bottom: solid 2px;
+}
+.comments h2.title:hover {
+    font-size: 1.3em;
+    border-radius: 2px 2px 100px 2px;
+	border-bottom: solid 8px;
+}
+
+
+/* Animaciones */
+
+a,
+.comment,
+.comment:hover,
+.l-header ul.menu li a,
+.header-menu ul.links li a,
+.page-title,
+.page-title:hover,
+.comments h2.title,
+.comments h2.title:hover {
+	transition: all 0.5s ease-in-out 0s;
+}
+
+
+
+
+/* Movil */
+
+@media only screen and (max-width: 768px) {
+		
+body,
+.node,
+.comment {
+	font-size: 18px;
+}
+
+.node .user-picture {
+	display: none;
+}
+
+.indented {
+    margin-left: 0px;
+}
+
+.layout {
+	margin: 0px;
+}
+
+}

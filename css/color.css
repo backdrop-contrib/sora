@@ -1,0 +1,119 @@
+body {
+	background: #F8F8F8;
+	color: #666;
+}
+
+.site-name a, .site-slogan {
+    color: #FFF;
+}
+
+.l-header:before {
+	background: #4D5C65;
+	color: #fff;
+}
+
+footer {
+	background: #D0D9E0;
+	color: #fff;
+}
+
+a, .link {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover, .link:hover {
+    color: Cadetblue;
+    text-decoration: none;
+}
+
+.l-header ul.menu li a {
+	color: #FFF;
+}
+
+.l-header ul.menu li a:hover {
+	border-bottom: 10px solid Azure;
+}
+
+.l-header ul.menu li a.active {
+	border-bottom: 10px solid Azure;
+	color: Azure;
+}
+
+.header-menu ul.links li a {
+	background: transparent;
+}
+
+.header-menu ul.links li a:hover {
+	background: Azure;
+	color: #666;
+}
+
+.page-title {
+	color:#FFF;
+}
+
+.quicktabs-style-commons-pills ul.quicktabs-tabs li.active a, .quicktabs-style-commons-pills ul.quicktabs-tabs li.active a:hover,
+ul.primary.tabs li.active a,
+ul.primary.tabs li.active a:hover {
+	background-color: Azure;
+}
+
+.node {
+	background: #EEEEEE;
+	color: #666;
+}
+
+.comment {
+	background: #F8F8F8;
+	color: #666;
+}
+
+.comment {
+	border-color: #f8f2f2;
+}
+
+.comment:hover {
+	border-color: #666;
+}
+
+.comment.comment-by-node-author {
+	background: #FDFDFD;
+	color: #666;
+}
+
+.comment-footer {
+	border-color: transparent !important;
+
+}
+
+.breadcrumb li a {
+	color: #666;
+}
+
+table, thead, tbody, tr, th, td {
+	border-color: #f8f2f2 !important;
+}
+
+tr:hover {
+    background: Azure;
+}
+
+.quicktabs-style-commons-pills ul.quicktabs-tabs li a,
+.quicktabs-style-commons-pills ul.quicktabs-tabs li a span,
+ul.primary.tabs li a,
+ul.primary.tabs li a span {
+  color: #666;
+}
+
+.submitted a {
+    color: #666;
+}
+
+.item-list .pager li.pager-current {
+    background-color: #666;
+}
+
+.item-list .pager a:hover {
+    background-color: #666;
+}
