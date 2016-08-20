@@ -1,9 +1,0 @@
-name = Sora
-description = Based in the default administration theme for Backdrop CMS.
-version = BACKDROP_VERSION
-type = theme
-backdrop = 1.x
-base theme = seven
-
-stylesheets[screen][] = css/sora.css
-stylesheets[screen][] = css/color.css
