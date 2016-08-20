@@ -1,0 +1,10 @@
+name = Sora
+description = Basado en Seven. / Based in Seven.
+version = BACKDROP_VERSION
+type = theme
+backdrop = 1.x
+base theme = seven
+
+stylesheets[screen][] = css/sora.css
+stylesheets[screen][] = css/color.css
+stylesheets[screen][] = css/personal.css
