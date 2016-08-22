@@ -15,18 +15,12 @@ Sora
   </header>
 
   <div class="comment-text">
-    <div class="comment-arrow"></div>
     <?php if ($new): ?>
       <span class="new"><?php print $new; ?></span>
     <?php endif; ?>
 
-    <?php print render($title_prefix); ?>
-    <h3><?php print $title; ?></h3>
-    <?php print render($title_suffix); ?>
-
     <div class="content"<?php print backdrop_attributes($content_attributes); ?>>
       <?php
-
         hide($content['links']);
         print render($content);
       ?>
