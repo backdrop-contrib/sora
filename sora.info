@@ -5,6 +5,7 @@ type = theme
 backdrop = 1.x
 base theme = seven
 
-stylesheets[screen][] = css/sora.css
-stylesheets[screen][] = css/color.css
-stylesheets[screen][] = css/personal.css
+stylesheets[all][] = css/sora.css
+stylesheets[all][] = css/color.css
+stylesheets[all][] = css/-768.css
+stylesheets[all][] = css/-480.css
