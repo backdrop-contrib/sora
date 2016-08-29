@@ -9,26 +9,14 @@ body {
 }
 
 .page-title {
+	font-family: Delicious, sans-serif, "omnes-pro";
 	font-size: 300%;
-	border-left-style: solid;
-	border-left-width: 0px;
-	border-right-style: solid;
-	border-right-width: 0px;
+    font-style: italic;
 	border-top: solid 2px;
-	margin-bottom: 0px;
-    border-radius: 0px 0px 0px 0px;
 }
 
 .page-title:hover {
-	font-size: 250%;
-    border-left-style: solid;
-	border-left-width: 0px;
-	border-right-style: solid;
-	border-right-width: 0px;
 	border-top: solid 8px;
-	margin-bottom: 0px;
-	transform: scale(1.00,1.00);
-	border-radius: 2px 100px 2px 2px;
 }
 
 .l-header:before {
@@ -62,6 +50,15 @@ body {
 
 footer {
 	border-radius: 14px 14px 0px 0px;
+}
+
+.l-footer-columns li a, .l-footer li a, .l-footer .even , .l-footer .odd {
+	padding: 4px;
+}
+
+.l-footer-columns li a, .l-footer li a:hover, .l-footer .even:hover, .l-footer .odd:hover {
+	background: #e5e5e6;
+	padding: 4px;
 }
 
 
@@ -121,7 +118,7 @@ ul.primary li {
 
 .node, .comment {
 	margin: 0;
-	padding: 18px;;
+	padding: 18px;
 	margin-bottom: 10px;
 	font-size: 20px;
 }
@@ -152,17 +149,9 @@ ul.primary li {
 	font-family: Delicious, sans-serif, "omnes-pro";
 	font-size: 300%;
     font-style: italic;
-    padding: 4px 0px 4px 12px;
-    margin-bottom: 5px;
-    border-left-style: solid;
-    border-left-width: 0px;
-    border-right-style: solid;
-    border-right-width: 0px;
 	border-bottom: solid 2px;
 }
 .comments h2.title:hover {
-    font-size: 1.3em;
-    border-radius: 2px 2px 100px 2px;
 	border-bottom: solid 8px;
 }
 
@@ -172,38 +161,17 @@ ul.primary li {
 a,
 .comment,
 .comment:hover,
+.comment-by-node-author .user-picture img,
+.comment-by-node-author .user-picture img:hover,
 .l-header ul.menu li a,
 .header-menu ul.links li a,
+.l-footer .even,
+.l-footer .odd,
+.l-footer .even:hover,
+.l-footer .odd:hover,
 .page-title,
 .page-title:hover,
 .comments h2.title,
 .comments h2.title:hover {
 	transition: all 0.5s ease-in-out 0s;
-}
-
-
-
-
-/* Movil */
-
-@media only screen and (max-width: 768px) {
-		
-body,
-.node,
-.comment {
-	font-size: 18px;
-}
-
-.node .user-picture {
-	display: none;
-}
-
-.indented {
-    margin-left: 0px;
-}
-
-.layout {
-	margin: 0px;
-}
-
 }

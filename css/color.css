@@ -11,10 +11,14 @@ body {
 	background: #4D5C65;
 	color: #fff;
 }
-
+/*
 footer {
 	background: #D0D9E0;
 	color: #fff;
+}
+*/
+.l-footer-columns li a, .l-footer li a:hover, .l-footer .even:hover, .l-footer .odd:hover {
+	background: #e5e5e6;
 }
 
 a, .link {
@@ -80,6 +84,10 @@ ul.primary.tabs li.active a:hover {
 .comment.comment-by-node-author {
 	background: #FDFDFD;
 	color: #666;
+}
+
+.comment-by-node-author .user-picture img:hover {
+	color: Purple;
 }
 
 .comment-footer {
