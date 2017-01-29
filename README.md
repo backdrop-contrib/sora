@@ -33,10 +33,12 @@ Comment: Contiene la estructura de los comentarios.
 # Diseño original
 
 Scoppettuolo.
+https://github.com/Scoppettuolo
 
 # Mantenimiento
 
 Scoppettuolo.
+https://github.com/Scoppettuolo
 
 # Licencia
 
