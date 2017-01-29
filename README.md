@@ -33,3 +33,11 @@ Comment: Contiene la estructura de los comentarios.
 # Diseño original
 
 Scoppettuolo.
+
+# Mantenimiento
+
+Scoppettuolo.
+
+# Licencia
+
+GPL., Revisar LICENSE.txt para más información.
