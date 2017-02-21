@@ -1,45 +1,43 @@
-# Sora
-
-Tema para Backdrop CMS
-
-Muy simple, muy bonito. ¿Qué más se le puede pedir?
+Sora
+======================
 
 Very simple, very nice!
 
-Requiere del tema base Seven.
-
 It requires the base theme Seven.
 
-# Uso
+Detail in READMEs should be limited to the minimum required for installation and
+getting started. More detailed documentation should be moved to a GitHub wiki page. https://github.com/backdrop-contrib/setup/wiki/Documentation
 
-Para activar ir a…: localhost/backdrop/admin/appearance
+Installation
+------------
 
-# Descripción
+- Install this theme using the official Backdrop CMS instructions at
+  https://backdropcms.org/guide/themes
 
-# CSS
+- Enable the theme at Administration > Appearence (admin/appearance)
 
-Sora: Contiene las bases del tema.
 
-Color: Contiene los colores que se utilizan en el tema.
+Documentation
+-------------
 
-Personal: Es un simple CSS que sirve para que quien así lo desee agrega sus propias personalizaciones al tema sin necesidad de editar los demás archivos.
+Additional documentation is located in the Wiki:
+https://github.com/backdrop-contrib/sora/wiki/Documentation
 
-# Templates
+Issues
+------
 
-Node: Contiene la estructura de los Nodos.
+Bugs and Feature requests should be reported in the Issue Queue:
+https://github.com/backdrop-contrib/sora/issues
 
-Comment: Contiene la estructura de los comentarios.
+Current Maintainers
+-------------------
 
-# Diseño original
+- Scoppettuolo (https://github.com/Scoppettuolo)
 
-Scoppettuolo.
-https://github.com/Scoppettuolo
+License
+-------
 
-# Mantenimiento
+This project is GPL v2 software. See the LICENSE.txt file in this directory for
+complete text.
 
-Scoppettuolo.
-https://github.com/Scoppettuolo
 
-# Licencia
-
-GPL., Revisar LICENSE.txt para más información.
