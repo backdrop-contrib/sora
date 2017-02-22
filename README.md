@@ -1,13 +1,6 @@
 Sora
 ======================
 
-Very simple, very nice!
-
-It requires the base theme Seven.
-
-Detail in READMEs should be limited to the minimum required for installation and
-getting started. More detailed documentation should be moved to a GitHub wiki page. https://github.com/backdrop-contrib/setup/wiki/Documentation
-
 Installation
 ------------
 
@@ -39,5 +32,3 @@ License
 
 This project is GPL v2 software. See the LICENSE.txt file in this directory for
 complete text.
-
-
