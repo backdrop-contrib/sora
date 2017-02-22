@@ -4,11 +4,7 @@ Tema para Backdrop CMS
 
 Muy simple, muy bonito. ¿Qué más se le puede pedir?
 
-Very simple, very nice!
-
 Requiere del tema base Seven.
-
-It requires the base theme Seven.
 
 # Uso
 
@@ -43,3 +39,53 @@ https://github.com/Scoppettuolo
 # Licencia
 
 GPL., Revisar LICENSE.txt para más información.
+
+# ---
+# ---
+
+# Sora
+======================
+
+It requires the base theme Seven.
+
+Detail in READMEs should be limited to the minimum required for installation and
+getting started. More detailed documentation should be moved to a GitHub wiki page. https://github.com/backdrop-contrib/setup/wiki/Documentation
+
+# Installation
+------------
+
+- Install this module using the official Backdrop CMS instructions at
+  https://backdropcms.org/guide/modules
+
+- Visit the configuration page under localhost/backdrop/admin/appearance
+
+- Any additional steps.
+
+# Documentation
+-------------
+
+Additional documentation is located in the Wiki:
+https://github.com/backdrop-contrib/sora/wiki/Documentation
+
+# Issues
+------
+
+Bugs and Feature requests should be reported in the Issue Queue:
+https://github.com/backdrop-contrib/sora/issues
+
+# Current Maintainers
+-------------------
+
+Scoppettuolo.
+https://github.com/Scoppettuolo
+
+# Credits
+-------
+
+Scoppettuolo.
+https://github.com/Scoppettuolo
+
+# License
+-------
+
+This project is GPL v2 software. See the LICENSE.txt file in this directory for complete text.
